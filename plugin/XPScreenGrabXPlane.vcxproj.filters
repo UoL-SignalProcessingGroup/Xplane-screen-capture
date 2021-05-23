@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\External XPlane">
+      <UniqueIdentifier>{4475afb2-d5f8-47f8-9278-2e242dbcdace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\XPlane\src\Wrappers\XPCBroadcaster.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Wrappers\XPCDisplay.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Wrappers\XPCListener.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Wrappers\XPCProcessing.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Wrappers\XPCWidget.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Wrappers\XPCWidgetAttachments.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMCamera.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMDataAccess.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMDefs.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMDisplay.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMGraphics.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMMenus.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMNavigation.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMPlanes.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMPlugin.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMProcessing.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMScenery.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\XPLM\XPLMUtilities.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Widgets\XPStandardWidgets.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Widgets\XPUIGraphics.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Widgets\XPWidgetDefs.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Widgets\XPWidgets.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Widgets\XPWidgetsEx.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XPlane\src\Widgets\XPWidgetUtils.h">
+      <Filter>Header Files\External XPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="XPIntervalTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XPScreenGrabConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\licenses.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XPScreenGrabPlugin_SM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XPIntervalTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
