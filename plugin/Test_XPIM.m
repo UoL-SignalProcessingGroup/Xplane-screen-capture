@@ -25,6 +25,9 @@
 % SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 close all;
+clear;
+clc;
+drawnow;
 
 hfig = 1;
 
@@ -61,7 +64,7 @@ data.timeOfDay = 12*60*60;  % midday
 % Prealloc images for faster drawing
 hsp1 = subplot(1,2,1);
 h_rgb = imshow(zeros(data.height, data.width, 3));
-str1 = sprintf('Frame: %d (LoopFPS: %0.2f, CaptureRate: %0.2f, XPlaneFPS: %0.2f) Min Dist %0.2f, Max Dist %0.2f', meta.capture_number, LoopFPS, CaptureRate, XPlaneFPS, minDepth, maxDepth);
+str1 = sprintf('RGB');
 t1 = title(str1);
 
 hsp2 = subplot(1,2,2);
@@ -70,7 +73,7 @@ set(gca, 'XTick', []);
 set(gca, 'YTick', []);
 axis image;
 colormap(jet(256));
-str2 = sprintf('Frame: %d (LoopFPS: %0.2f, CaptureRate: %0.2f, XPlaneFPS: %0.2f) Min Dist %0.2f, Max Dist %0.2f', meta.capture_number, LoopFPS, CaptureRate, XPlaneFPS, minDepth, maxDepth);
+str2 = sprintf('Depth');
 t2 = title(str2);
 
 subplot(hsp1); % Switch back to 1st plot (RGB image)
